@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="main.css">
+  <title>Flower Power Florist</title>
+</head>
+<body ng-app="Florist">
+
+  <header id="head">Flower Power Florist</header><!-- /header -->
+  <br>
+  <br>
+    <label for="displayDiv">Start of Display Div</label>
+    <br>
+      <div class="display" ng-view></div>
+    <br>
+    <label for="displayDiv">End of Display Div</label>
+
+
+
+</body>
+<!-- 3rd party lib -->
+<script src="lib/node_modules/angular/angular.min.js" type="text/javascript"></script>
+<script src="lib/node_modules/angular-route/angular-route.min.js" type="text/javascript"></script>
+<!-- app scripts -->
+<script src="app/app.js" type="text/javascript"></script>
+<script src="app/factories/FlowerFactory.js" type="text/javascript"></script>
+<script src="app/controllers/InventoryCtrl.js" type="text/javascript"></script>
+
+</html>

@@ -1,0 +1,10 @@
+#head {
+  text-align: center;
+  color: #978;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.display {
+  background-color: lightgray;
+}
