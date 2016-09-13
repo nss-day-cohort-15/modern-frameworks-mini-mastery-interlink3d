@@ -10,6 +10,8 @@
   "license": "ISC",
   "devDependencies": {
     "angular": "^1.5.8",
-    "angular-route": "^1.5.8"
+    "angular-filter": "^0.5.11",
+    "angular-route": "^1.5.8",
+    "firebase": "^3.3.2"
   }
 }

@@ -8,19 +8,15 @@
 
   <header id="head">Flower Power Florist</header><!-- /header -->
   <br>
-  <br>
-    <label for="displayDiv">Start of Display Div</label>
-    <br>
-      <div class="display" ng-view></div>
-    <br>
-    <label for="displayDiv">End of Display Div</label>
-
-
+  <div class="display" ng-view></div>
 
 </body>
 <!-- 3rd party lib -->
 <script src="lib/node_modules/angular/angular.min.js" type="text/javascript"></script>
 <script src="lib/node_modules/angular-route/angular-route.min.js" type="text/javascript"></script>
+<script src="lib/node_modules/firebase/firebase.js"></script>
+<script src="lib/node_modules/angular-filter/dist/angular-filter.min.js"></script>
+
 <!-- app scripts -->
 <script src="app/app.js" type="text/javascript"></script>
 <script src="app/factories/FlowerFactory.js" type="text/javascript"></script>

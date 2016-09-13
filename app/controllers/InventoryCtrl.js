@@ -3,7 +3,8 @@
 app.controller('InventoryCtrl', function($scope, FlowerFactory) {
 
   FlowerFactory.getArrangements()
-    .then((itemObject) => {
-      $scope.arrangements = itemObject;
+    .then((arrangements1) => {
+      console.log(arrangements1);
+      $scope.arrangements = arrangements1;
     });
 });

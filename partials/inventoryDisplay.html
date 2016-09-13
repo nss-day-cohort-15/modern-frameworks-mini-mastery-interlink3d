@@ -1,0 +1,10 @@
+<div class="container">
+  <ul ng-repeat="(key, value) in arrangements | groupBy: 'category'">
+    <h3 style="color:#657">Category: {{key}}</h3>
+    <li style="list-style: none;" ng-repeat="arrangement in value">
+      <h4>Title: {{arrangement.title}}</h4>
+      <h5>Description: {{arrangement.description}}</h5>
+      <h5>Price: ${{arrangement.price}}</h5>
+    </li>
+  </ul>
+</div>
